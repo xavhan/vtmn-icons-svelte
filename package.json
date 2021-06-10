@@ -1,5 +1,6 @@
 {
   "name": "vtmn-icons-svelte",
+  "type": "module",
   "version": "1.0.0-3",
   "description": "Vitamin icons as Svelte components",
   "main": "lib/index.js",
