@@ -23,7 +23,7 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
   ],
-  "optionalDependencies": {
+  "peerDependencies": {
     "svelte": "^3.38.2"
   },
   "devDependencies": {
