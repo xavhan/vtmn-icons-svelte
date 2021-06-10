@@ -1,0 +1,37 @@
+{
+  "name": "vtmn-icons-svelte",
+  "version": "0.0.0",
+  "description": "Vitamin icons as Svelte components",
+  "main": "lib/index.js",
+  "svelte": "lib/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "prepack": "node build"
+  },
+  "keywords": [
+    "svelte",
+    "svelte",
+    "components",
+    "vitamin",
+    "icons",
+    "svg"
+  ],
+  "author": "Xavier Haniquaut",
+  "licenses": [
+    {
+      "type": "Apache-2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "optionalDependencies": {
+    "svelte": "^3.38.2"
+  },
+  "devDependencies": {
+    "@vtmn/icons": "^0.3.1",
+    "svg-to-svelte": "^2.2.0"
+  },
+  "files": [
+    "lib",
+    "ICON_INDEX.md"
+  ]
+}
