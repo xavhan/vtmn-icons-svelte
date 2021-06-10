@@ -1,5 +1,7 @@
 const { generateFromFolder, generateIndex } = require('svg-to-svelte');
-const { name, devDependencies } = require('./package.json');
+const fs = require('fs');
+
+const { name, devDependencies } = JSON.parse(fs.readFileSync('package.json'));
 
 (async () => {
   const lib = "@vtmn/icons";

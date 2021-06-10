@@ -1,9 +1,9 @@
 {
-  "name": "vtmn-icons-svelte",
-  "version": "0.0.0",
+  "name": "svelte-vtmn-icons",
+  "version": "1.0.0-11",
   "description": "Vitamin icons as Svelte components",
-  "main": "lib/index.js",
   "svelte": "lib/index.js",
+  "main": "lib/index.js",
   "sideEffects": false,
   "scripts": {
     "prepack": "node build"
@@ -23,7 +23,7 @@
       "url": "http://www.apache.org/licenses/LICENSE-2.0"
     }
   ],
-  "optionalDependencies": {
+  "peerDependencies": {
     "svelte": "^3.38.2"
   },
   "devDependencies": {
