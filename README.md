@@ -54,3 +54,16 @@ Refer to [ICON_INDEX.md](ICON_INDEX.md) for a full list of icons.
   </div>
 {/each}
 ```
+
+## Dev
+
+To update vtmn-icons-svelte
+
+```
+npm i -D @vtmn/icons-svelte@latest
+git add --all
+git commit -m "update @vtmn/icons-svelte"
+npm version <major|minor|patch>
+npm publish
+git push
+```
